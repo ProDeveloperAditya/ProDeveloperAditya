@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/ProDeveloperAditya.png" width="160" alt="Aditya Raj" />
+<img align="right" src="https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif" width="360" alt="Developer at work" />
 
 [![Aditya Raj](https://img.shields.io/badge/Aditya%20Raj-B.Tech%20CSE%20'27-blue?style=flat-square)](https://github.com/ProDeveloperAditya)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aditya--raj--developer-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/aditya-raj-developer/)
