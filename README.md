@@ -1,4 +1,4 @@
-<img align="right" src="https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif" width="360" alt="Developer at work" />
+<img align="right" src="dev.gif" width="360" alt="Developer at work" />
 
 [![Aditya Raj](https://img.shields.io/badge/Aditya%20Raj-B.Tech%20CSE%20'27-blue?style=flat-square)](https://github.com/ProDeveloperAditya)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aditya--raj--developer-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/aditya-raj-developer/)
@@ -51,8 +51,7 @@ A **C#/.NET 8** desktop agent orchestrating 8 LLM providers (including a fully-o
 ## 📊 GitHub Stats
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=ProDeveloperAditya&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="160" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProDeveloperAditya&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="160" alt="Top languages" />
+  <img src="https://streak-stats.demolab.com/?user=ProDeveloperAditya&theme=tokyonight&hide_border=true" height="170" alt="GitHub contribution streak" />
 </p>
 
 ---
