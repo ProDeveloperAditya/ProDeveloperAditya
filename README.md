@@ -1,12 +1,8 @@
 <!-- dossier flow: hook -> proof -> projects -> stack -> signals -->
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=190&text=Aditya%20Raj&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=REAL%20USERS%20%C2%B7%20SHIPPED%20CODE%20%C2%B7%20%240%20INFRA&descSize=15&descAlignY=55" width="100%" alt="Aditya Raj"/>
+
 <div align="center">
-
-<br/>
-
-<samp>REAL_USERS / SHIPPED_CODE / $0_INFRA</samp>
-
-<h1>Aditya Raj</h1>
 
 <samp>Full-stack developer who ships — 3 live web apps, an iOS App Store app, and a desktop AI agent</samp>
 
@@ -163,12 +159,7 @@ Tri-layer synthetic-media detection in a **Flutter** app, published to the **iOS
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ProDeveloperAditya&theme=github_dark" width="89%"/>
-
-<br/><br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ProDeveloperAditya&theme=github_dark" width="43%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ProDeveloperAditya&theme=github_dark" width="43%"/>
+<img src="https://raw.githubusercontent.com/ProDeveloperAditya/ProDeveloperAditya/output/metrics.svg" width="89%" alt="Detailed GitHub metrics"/>
 
 <br/><br/>
 
@@ -178,12 +169,12 @@ Tri-layer synthetic-media detection in a **Flutter** app, published to the **iOS
 
 ---
 
-## 🐍 Contribution Snake
+## 🏙️ 3D Contribution Skyline
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ProDeveloperAditya/ProDeveloperAditya/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ProDeveloperAditya/ProDeveloperAditya/output/github-snake.svg"/>
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/ProDeveloperAditya/ProDeveloperAditya/output/github-snake.svg" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ProDeveloperAditya/ProDeveloperAditya/output-3d/profile-night-rainbow.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ProDeveloperAditya/ProDeveloperAditya/output-3d/profile-season-animate.svg"/>
+  <img alt="3D contribution skyline" src="https://raw.githubusercontent.com/ProDeveloperAditya/ProDeveloperAditya/output-3d/profile-season-animate.svg" width="100%"/>
 </picture>
 
 ---
@@ -205,3 +196,5 @@ Tri-layer synthetic-media detection in a **Flutter** app, published to the **iOS
 [![Profile Views](https://komarev.com/ghpvc/?username=ProDeveloperAditya&color=0D1117&style=flat-square&label=profile+views)](https://github.com/ProDeveloperAditya)
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=110&section=footer" width="100%" alt=""/>
