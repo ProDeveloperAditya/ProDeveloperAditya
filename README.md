@@ -159,9 +159,11 @@ Tri-layer synthetic-media detection in a **Flutter** app, published to the **iOS
 
 <div align="center">
 
+<!-- uncomment once METRICS_TOKEN is set and the metrics workflow has run
 <img src="https://raw.githubusercontent.com/ProDeveloperAditya/ProDeveloperAditya/output/metrics.svg" width="89%" alt="Detailed GitHub metrics"/>
 
 <br/><br/>
+-->
 
 <img src="https://streak-stats.demolab.com/?user=ProDeveloperAditya&theme=tokyonight&hide_border=true" height="170" alt="GitHub contribution streak" />
 
