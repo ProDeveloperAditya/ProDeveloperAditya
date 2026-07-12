@@ -1,61 +1,207 @@
-<img align="right" src="dev.gif" width="360" alt="Developer at work" />
+<!-- dossier flow: hook -> proof -> projects -> stack -> signals -->
 
-[![Aditya Raj](https://img.shields.io/badge/Aditya%20Raj-B.Tech%20CSE%20'27-blue?style=flat-square)](https://github.com/ProDeveloperAditya)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-aditya--raj--developer-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/aditya-raj-developer/)
-[![Email](https://img.shields.io/badge/Email-adityarajloyola%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:adityarajloyola@gmail.com)
+<div align="center">
 
-I'm **Aditya Raj** — B.Tech CSE (IoT) at **Vellore Institute of Technology**, Class of 2027.
+<br/>
 
-I like building things that actually **ship**: deployed web apps, an app on the **iOS App Store**, and a desktop agent people can download. Real users > toy demos. ✨
+<samp>REAL_USERS / SHIPPED_CODE / $0_INFRA</samp>
+
+<h1>Aditya Raj</h1>
+
+<samp>Full-stack developer who ships — 3 live web apps, an iOS App Store app, and a desktop AI agent</samp>
+
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=2300&pause=650&color=C9D1D9&center=true&vCenter=true&width=680&lines=%3E+merge+concurrent+edits+with+CRDTs;%3E+sandbox+untrusted+code+in+Docker;%3E+model+sunlight+from+NASA+satellite+data;%3E+ship+AI+that+cites+its+sources" alt="What I build"/>
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-raj-developer/)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:adityarajloyola@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ProDeveloperAditya)
+
+<br/>
+
+<sub>B.Tech CSE (IoT) @ VIT Vellore, Class of 2027 · CGPA 8.9</sub>
+
+</div>
+
+---
+
+> [!IMPORTANT]
+> Open to **SDE internships and placement roles** — I'm at my best where things have to actually ship to real users, not end as a slide deck.
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center"><sub>live web apps</sub><br/><kbd>3 deployed</kbd></td>
+<td align="center"><sub>mobile</sub><br/><kbd>iOS App Store</kbd></td>
+<td align="center"><sub>Flipkart Grid 7.0</sub><br/><kbd>Top 100 / 50,000+</kbd></td>
+<td align="center"><sub>LeetCode</sub><br/><kbd>250+ solved</kbd></td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+<img align="right" src="dev.gif" width="330" alt="Developer at work" />
+
+```toml
+[profile]
+name     = "Aditya Raj"
+degree   = "B.Tech CSE (IoT) — VIT, 2027"
+latest   = "SWE Intern @ AI Blocks (May–Jul 2026)"
+research = "IoT + TinyML water-quality monitoring"
+
+[operating_rules]
+hosting_budget = "$0/month — and it shows nowhere"
+testing        = "assert invariants, not vibes"
+definition_of_done = "deployed, with real users"
+```
 
 <br clear="right"/>
 
 ---
 
-## 🚀 Projects
+## 🗺️ Repository Map
 
-*Ordered by how proud I am of them.*
+<div align="center">
 
-### 🧠 [BillBrain](https://github.com/ProDeveloperAditya/BillBrain) — AI personal-finance intelligence
-Parses 100-page bank statements in <400 ms, flags anomalies with per-category z-scores, forecasts spending with confidence bands, and answers questions through a **streaming RAG assistant** grounded in *your* transactions — with citations and prompt-injection guardrails. Hardened by a **128-test** suite + LLM eval harness.
-**[Live →](https://bill-brain-rho.vercel.app)** · `Next.js 16 · TypeScript · PostgreSQL · Prisma · Auth.js v5`
+| Track | Repositories |
+|:---:|:---|
+| **Flagship — live** | [BillBrain](https://github.com/ProDeveloperAditya/BillBrain) · [PairPad](https://github.com/ProDeveloperAditya/pairpad) · [SolarSetu](https://github.com/ProDeveloperAditya/solarsetu) |
+| **Shipped apps** | [Ministry of Truth (iOS)](https://apps.apple.com/jp/app/ministry-of-truth/id6769267972?l=en-US) · [LilAgents (Windows)](https://github.com/ProDeveloperAditya/lilagents-app) |
+| **AI/ML** | [Sentiment Analysis](https://github.com/ProDeveloperAditya/Sentiment-Analysis-on-Movie-Reviews) · [Gen AI experiments](https://github.com/ProDeveloperAditya/AllGenAI) |
+| **Tools** | [PDF Protect](https://github.com/ProDeveloperAditya/PDF-Protect) · [OCR Comparator](https://github.com/ProDeveloperAditya/ocr-comparator) |
 
-### ⚡ [PairPad](https://github.com/ProDeveloperAditya/pairpad) — Google Docs for code, with a Run button
-Real-time collaborative editor on **Yjs CRDTs** (conflict-free multi-user sync, live cursors) that executes code in a **hardened Docker sandbox** — no network, 128 MB RAM, 10 s kill switch. Fork bombs and `rm -rf /` bounce right off.
-**[Live →](https://pairpad-web.vercel.app)** · `React · Node.js · WebSockets · Docker · Monaco · Oracle Cloud`
-
-### ☀️ [SolarSetu](https://github.com/ProDeveloperAditya/solarsetu) — draw your roof, get your solar payback
-Models the actual physics: **NASA POWER** irradiance + Liu–Jordan transposition + an hour-by-hour **sun-path shading simulation** (India has no 3D building data, so I made the user the sensor). Applies the PM Surya Ghar subsidy for payback & 25-year ROI. **29 tests** assert physical invariants.
-**[Live →](https://solarsetu.vercel.app)** · `Next.js 16 · React 19 · Leaflet · Turf.js · Vitest`
-
-### 🕵️ [Ministry of Truth](https://apps.apple.com/jp/app/ministry-of-truth/id6769267972?l=en-US) — AI media forensics, live on the App Store
-Tri-layer synthetic-media detection in a **Flutter** app, published on the **iOS App Store** with a multi-source Python validation backend.
-**[App Store →](https://apps.apple.com/jp/app/ministry-of-truth/id6769267972?l=en-US)** · `Flutter · Python · iOS`
-
-### 🐾 [LilAgents](https://github.com/ProDeveloperAditya/lilagents-app) — AI companions living in your Windows taskbar
-A **C#/.NET 8** desktop agent orchestrating 8 LLM providers (including a fully-offline local model via `llama.cpp`) to automate 50+ OS actions — file ops, vision, voice — through natural language.
-**[Download →](https://github.com/ProDeveloperAditya/lilagents-app)** · `C# · .NET 8 · LLamaSharp · Win32/COM`
+</div>
 
 ---
 
-## 🛠️ Technologies
+## 🗂️ Case Files
 
-- **Languages:** TypeScript, JavaScript, Python, C++, C, C#, Dart
-- **Frontend:** React, Next.js, Flutter, Tailwind CSS
-- **Backend:** Node.js, Express, .NET, Flask, WebSockets
-- **Data & Infra:** PostgreSQL, Prisma, Firebase, Docker, Vercel, Oracle Cloud
-- **AI/ML:** RAG pipelines, LLM function-calling, embeddings, TinyML, anomaly detection
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🧠 BillBrain — AI personal-finance intelligence**
+
+Parses 100-page bank statements in <400 ms, flags anomalies with per-category z-scores, forecasts spend with confidence bands, and answers questions via a **streaming RAG assistant** grounded in your own transactions — with citations and prompt-injection guardrails.
+
+`128 tests` `<400ms parse` `94% categorization` `LLM eval harness`
+
+[Live](https://bill-brain-rho.vercel.app) · [Repository](https://github.com/ProDeveloperAditya/BillBrain)
+
+</td>
+<td width="50%" valign="top">
+
+**⚡ PairPad — Google Docs for code, with a Run button**
+
+Real-time collaborative editor on **Yjs CRDTs** (live cursors, shared run state) executing code in a hardened **Docker sandbox** — no network, 128 MB RAM, 10 s kill switch. Fork bombs and `rm -rf /` bounce off.
+
+`6 languages` `CRDT sync` `0 sandbox escapes` `$0/mo infra`
+
+[Live](https://pairpad-web.vercel.app) · [Repository](https://github.com/ProDeveloperAditya/pairpad)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**☀️ SolarSetu — draw your roof, get your solar payback**
+
+Models real physics: **NASA POWER** irradiance, Liu–Jordan transposition, and an hour-by-hour **sun-path shading simulation** (India has no 3D building data — so the user marks the obstruction). PM Surya Ghar subsidy → payback & 25-yr ROI.
+
+`29 physics tests` `validated vs Delhi benchmark` `keyless APIs`
+
+[Live](https://solarsetu.vercel.app) · [Repository](https://github.com/ProDeveloperAditya/solarsetu)
+
+</td>
+<td width="50%" valign="top">
+
+**🕵️ Ministry of Truth — AI media forensics on the App Store**
+
+Tri-layer synthetic-media detection in a **Flutter** app, published to the **iOS App Store**, backed by multi-source Python validation.
+
+`iOS App Store` `Flutter` `Python backend`
+
+[App Store](https://apps.apple.com/jp/app/ministry-of-truth/id6769267972?l=en-US)
+
+<br/>
+
+**🐾 LilAgents — AI companions in your Windows taskbar**
+
+**C#/.NET 8** desktop agent orchestrating 8 LLM providers — including a fully-offline local model via `llama.cpp` — automating 50+ OS actions through natural language.
+
+`8 LLM providers` `50+ OS actions` `runs offline`
+
+[Download](https://github.com/ProDeveloperAditya/lilagents-app)
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 📊 GitHub Stats
+## 🛠️ Stack
 
-<p>
-  <img src="https://streak-stats.demolab.com/?user=ProDeveloperAditya&theme=tokyonight&hide_border=true" height="170" alt="GitHub contribution streak" />
-</p>
+<div align="center">
+
+<img height="40" src="https://skillicons.dev/icons?i=ts,js,py,cpp,c,cs,dart&theme=dark" />
+<br/>
+<img height="40" src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,flutter,dotnet,flask,tailwind&theme=dark" />
+<br/>
+<img height="40" src="https://skillicons.dev/icons?i=docker,postgres,prisma,firebase,git,vercel&theme=dark" />
+
+</div>
 
 ---
 
-<p align="center">
-  🏆 <b>Top 100</b> — Flipkart Grid 7.0 (50,000+ participants) · 🧩 250+ LeetCode solved · 📄 IoT + TinyML research (manuscript in preparation)
-</p>
+## 📊 GitHub Signals
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ProDeveloperAditya&theme=github_dark" width="89%"/>
+
+<br/><br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ProDeveloperAditya&theme=github_dark" width="43%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ProDeveloperAditya&theme=github_dark" width="43%"/>
+
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com/?user=ProDeveloperAditya&theme=tokyonight&hide_border=true" height="170" alt="GitHub contribution streak" />
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ProDeveloperAditya/ProDeveloperAditya/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ProDeveloperAditya/ProDeveloperAditya/output/github-snake.svg"/>
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/ProDeveloperAditya/ProDeveloperAditya/output/github-snake.svg" width="100%"/>
+</picture>
+
+---
+
+<div align="center">
+
+<samp>Real users &gt; toy demos.</samp>
+
+<br/>
+
+<samp>If it isn't deployed, it isn't done.</samp>
+
+<br/><br/>
+
+🏆 <sub><b>Top 100</b> — Flipkart Grid 7.0 · 📄 IoT + TinyML research (manuscript in preparation) · 🎓 IEEE-CS Senior Core — ran a 36-hr hackathon (600+ participants)</sub>
+
+<br/><br/>
+
+[![Profile Views](https://komarev.com/ghpvc/?username=ProDeveloperAditya&color=0D1117&style=flat-square&label=profile+views)](https://github.com/ProDeveloperAditya)
+
+</div>
